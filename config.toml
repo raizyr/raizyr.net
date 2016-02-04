@@ -19,7 +19,7 @@ subscribe_email = ""
 
 # Menu links
 menu_home_text = "Home"
-menu_about_url = "http://about.me/chrismcnabb"
+menu_about_url = "http://about.me/cmcnabb"
 menu_about_text = "About Me"
 menu_archives_text = "Archives"
 
