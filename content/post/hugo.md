@@ -1,9 +1,10 @@
 +++
-date = "2016-02-03T11:54:22-06:00"
-draft = true
+date = "2016-02-03T20:07:50-06:00"
+draft = false
 title = "Hugo, a better way to blog?"
 tags = [ "Go", "Blogging" ]
 +++
+
 {{<figure src="https://gohugo.io/img/hugo-logo.png">}}
 In an attempt to improve my online presence, I have found [Hugo](http://gohugo.io), a "Fast & Modern Static Website Engine".  Since I've been doing a bit of playing/learning [Go](https://golang.org) lately finding a static site generator written in [Go](https://golang.org) is really nice.  So far it seems to work pretty well.  If you are able to read this post then apparently I also figured out how to have it deploy to Amazon's S3 automatically. 
 
