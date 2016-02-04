@@ -1,0 +1,30 @@
+baseurl = "http://raizyr.net"
+languageCode = "en-us"
+title = "Chris McNabb | raizyr.net"
+theme = "greyshade"
+
+[author]
+name = "Chris McNabb"
+email= "raizyr@gmail.com"
+
+[taxonomies]
+tags = "tags"
+
+[params]
+description = ""
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss = "/index.xml"
+subscribe_email = ""
+
+# Menu links
+menu_home_text = "Home"
+menu_about_url = "http://about.me/chrismcnabb"
+menu_about_text = "About Me"
+menu_archives_text = "Archives"
+
+twitter_user = "raizyr"
+github_user = "raizyr"
+linkedin_user = "raizyr"
+#facebook_user = "raizyr"
+#googleplus_user = "+ChrisMcNabb"
