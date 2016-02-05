@@ -12,8 +12,9 @@ build:
         code: |
           hugo
 deploy:
+  box: raizyr/s3cmd
   steps:
-    - s3sync:
+    - raizyr/s3sync-docker:
         source_dir: public/
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
