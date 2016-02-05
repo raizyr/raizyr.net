@@ -1,7 +1,6 @@
-	box: 
-		id: raizyr/hugo-build
-		cmd: /bin/sh
-
+box: 
+	id: raizyr/hugo-build
+	cmd: /bin/sh
 build:
 	steps:
 		- script:
