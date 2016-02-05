@@ -13,7 +13,7 @@ build:
           hugo
 deploy:
   box: 
-    id: schickling/s3cmd
+    id: raizyr/s3cmd
     cmd: /bin/sh
   steps:
     - s3sync:
