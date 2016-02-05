@@ -12,9 +12,6 @@ build:
         code: |
           hugo
 deploy:
-  box: 
-    id: raizyr/s3cmd
-    cmd: /bin/sh
   steps:
     - s3sync:
         source_dir: public/
