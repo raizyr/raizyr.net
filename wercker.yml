@@ -1,7 +1,7 @@
-box: 
-  id: raizyr/hugo-build
-  cmd: /bin/sh
 build:
+  box: 
+    id: raizyr/hugo-build
+    cmd: /bin/sh
   steps:
     - script:
         name: initialize git submodules
@@ -12,6 +12,9 @@ build:
         code: |
           hugo
 deploy:
+  box: 
+    id: schickling/s3cmd
+    cmd: /bin/sh
   steps:
     - s3sync:
         source_dir: public/
