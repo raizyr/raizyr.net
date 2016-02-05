@@ -1,4 +1,4 @@
-baseurl = "https://raizyr.net"
+baseurl = "//raizyr.net"
 languageCode = "en-us"
 title = "Chris McNabb | raizyr.net"
 theme = "greyshade"
