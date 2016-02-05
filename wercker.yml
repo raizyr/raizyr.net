@@ -1,21 +1,21 @@
 box: 
-	id: raizyr/hugo-build
-	cmd: /bin/sh
+  id: raizyr/hugo-build
+  cmd: /bin/sh
 build:
-	steps:
-		- script:
-				name: initialize git submodules
-				code: |
-					git submodule update --init --recursive
-		- script:
-				name: build with hugo
-				code: |
-					hugo
+  steps:
+    - script:
+        name: initialize git submodules
+        code: |
+          git submodule update --init --recursive
+    - script:
+        name: build with hugo
+        code: |
+          hugo
 deploy:
-	steps:
-		- s3sync:
-				source_dir: public/
-				delete-removed: true
-				bucket-url: $AWS_BUCKET_URL
-				key-id: $AWS_ACCESS_KEY_ID
-				key-secret: $AWS_SECRET_ACCESS_KEY
+  steps:
+    - s3sync:
+      source_dir: public/
+      delete-removed: true
+      bucket-url: $AWS_BUCKET_URL
+      key-id: $AWS_ACCESS_KEY_ID
+      key-secret: $AWS_SECRET_ACCESS_KEY
