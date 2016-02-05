@@ -12,7 +12,7 @@ tags = "tags"
 
 [params]
 description = ""
-favicon_partial = "favicon.html"
+favicon_partial = true
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss = "/index.xml"
